@@ -19,11 +19,15 @@ export default {
           700: '#be123c',
           800: '#9f1239',
           900: '#881337',
+        },
+        beige: {
+          50: '#fdfbf8',
+          100: '#fbf7f1',
         }
       },
       fontFamily: {
-        sans: ['Lato', 'sans-serif'],
-        heading: ['Montserrat', 'sans-serif'],
+        sans: ['Quicksand', 'sans-serif'],
+        heading: ['Poppins', 'sans-serif'],
       },
     },
   },
