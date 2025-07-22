@@ -15,7 +15,7 @@ const Header = () => {
       <NavLink to="/services" className={({ isActive }) => `${linkStyles} ${isActive ? activeLinkStyles : ''}`} onClick={() => setIsOpen(false)}>Services</NavLink>
       <NavLink to="/resources" className={({ isActive }) => `${linkStyles} ${isActive ? activeLinkStyles : ''}`} onClick={() => setIsOpen(false)}>Resources</NavLink>
       <NavLink to="/reviews" className={({ isActive }) => `${linkStyles} ${isActive ? activeLinkStyles : ''}`} onClick={() => setIsOpen(false)}>Reviews</NavLink>
-      <NavLink to="/contact" className={({ isActive }) => `${linkStyles} ${isActive ? activeLinkStyles : ''}`} onClick={() => setIsOpen(false)}>Contact</NavLink>
+      <NavLink to="/book" className="bg-rose-500 hover:bg-rose-600 text-white font-bold py-2 px-4 rounded-full shadow-md text-sm transition-all ml-2" onClick={() => setIsOpen(false)}>Book a Consultation</NavLink>
     </>
   );
 

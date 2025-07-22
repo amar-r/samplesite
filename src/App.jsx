@@ -8,9 +8,9 @@ import './App.css';
 const Home = lazy(() => import('./pages/Home'));
 const About = lazy(() => import('./pages/About'));
 const Services = lazy(() => import('./pages/Services'));
-const Contact = lazy(() => import('./pages/Contact'));
 const Reviews = lazy(() => import('./pages/Reviews'));
 const Resources = lazy(() => import('./pages/Resources'));
+const Booking = lazy(() => import('./pages/Booking'));
 
 const LoadingFallback = () => (
   <div className="text-center p-12">
@@ -28,9 +28,9 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="/book" element={<Booking />} />
           </Routes>
         </Suspense>
       </main>

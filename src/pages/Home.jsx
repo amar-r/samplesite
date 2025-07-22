@@ -27,7 +27,7 @@ const Home = () => {
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8">
             Gentle, expert, and heartfelt support for you and your baby.
           </p>
-          <Link to="/contact">
+          <Link to="/book">
             <Button>Book a Free Consultation</Button>
           </Link>
         </div>

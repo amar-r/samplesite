@@ -16,7 +16,7 @@ const Services = () => (
             <h2 className="text-2xl font-semibold font-heading text-rose-600 dark:text-rose-400 mb-2">{service.title}</h2>
             <p className="text-gray-700 dark:text-gray-300 mb-4 flex-grow">{service.description}</p>
             <p className="text-xl font-bold text-gray-800 dark:text-white mb-4">{service.price}</p>
-            <Link to="/contact">
+            <Link to="/book">
               <Button className="w-full">Book Now</Button>
             </Link>
           </Card>
